@@ -8,15 +8,25 @@ collections framework || persiapan pertemuan 5 dan quiz
 
 ### 2. Perbedaan Thread dan Runnable
 Thread | Runable
-Cara menggunakan | Mewarisi kelas Thread | Mengimplementasikan antarmuka Runnable
------------------------------------------------------------------------------------------------------------
-Tujuan	| Digunakan saat ingin membuat Thread dengan kemampuan tambahan selain run() |	Digunakan jika hanya perlu mengganti metode run() tanpa modifikasi metode lain
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Hubungan |	Thread sendiri mengimplementasikan Runnable	| Runnable merupakan cara untuk membuat kelas dieksekusi oleh thread tanpa mewarisi Thread-nya
+*Cara menggunakan* :
+Thread : Mewarisi kelas Thread 
+Runnable: Mengimplementasikan antarmuka Runnable
+
+*Tujuan*	
+Thread: Digunakan saat ingin membuat Thread dengan kemampuan tambahan selain run() 
+Runnable: Digunakan jika hanya perlu mengganti metode run() tanpa modifikasi metode lain
+
+*Hubungan*
+Thread : mengimplementasikan Runnable	
+runnable: cara untuk membuat kelas dieksekusi oleh thread tanpa mewarisi Thread-nya
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-Cara Menjalankan	| Membuat objek dari kelas Thread, lalu memanggil start() |	Membuat objek Thread dengan Runnable sebagai parameter, lalu memanggil start()
+*Cara Menjalankan*	: 
+Thread: Membuat objek dari kelas Thread, lalu memanggil start() 
+Runnable: Membuat objek Thread dengan Runnable sebagai parameter, lalu memanggil start()
 ----------------------------------------------------------------------------------------------------------------------------------
-Keterbatasan |	Tidak bisa mewarisi kelas lain karena tidak mendukung multiple inheritance |	Dapat mewarisi kelas lain 
+*Keterbatasan* 
+Thread: Tidak bisa mewarisi kelas lain karena tidak mendukung multiple inheritance 
+Runnable: Dapat mewarisi kelas lain 
 
 
 ### 3. Penggunaan Thread.sleep()
