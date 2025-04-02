@@ -12,19 +12,19 @@ Thread | Runable
 Thread : Mewarisi kelas Thread 
 Runnable: Mengimplementasikan antarmuka Runnable
 
-## *Tujuan*	
+##### *Tujuan*	
 Thread: Digunakan saat ingin membuat Thread dengan kemampuan tambahan selain run() 
 Runnable: Digunakan jika hanya perlu mengganti metode run() tanpa modifikasi metode lain
 
-## *Hubungan*
+##### *Hubungan*
 Thread : mengimplementasikan Runnable	
 runnable: cara untuk membuat kelas dieksekusi oleh thread tanpa mewarisi Thread-nya
 
-## *Cara Menjalankan*	: 
+##### *Cara Menjalankan*	: 
 Thread: Membuat objek dari kelas Thread, lalu memanggil start() 
 Runnable: Membuat objek Thread dengan Runnable sebagai parameter, lalu memanggil start()
 
-## *Keterbatasan* 
+##### *Keterbatasan* 
 Thread: Tidak bisa mewarisi kelas lain karena tidak mendukung multiple inheritance 
 Runnable: Dapat mewarisi kelas lain 
 
