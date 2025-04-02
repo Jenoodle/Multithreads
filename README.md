@@ -7,7 +7,7 @@ collections framework || persiapan pertemuan 5 dan quiz
 - Cara Kerja Multithread adalah dengan memisahkan tugas-tugas yang memakan waktu dari thread utama, sehingga antarmuka pengguna dapat tetap responsif dan tidak macet.
 
 ### 2. Perbedaan Thread dan Runnable
-Aspek	| Thread	| Runnable
+Thread | Runable
 Cara menggunakan | Mewarisi kelas Thread | Mengimplementasikan antarmuka Runnable
 -----------------------------------------------------------------------------------------------------------
 Tujuan	| Digunakan saat ingin membuat Thread dengan kemampuan tambahan selain run() |	Digunakan jika hanya perlu mengganti metode run() tanpa modifikasi metode lain
